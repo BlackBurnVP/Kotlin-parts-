@@ -1,0 +1,5 @@
+Timber dependency :https://github.com/JakeWharton/timber#download (buld.gradle)
+New Applications class
+  android:name="Application class" (Manifest)
+  Initialize Timber
+    Timber.plant(Timber.DebugTree())
