@@ -1,6 +1,11 @@
 class Timer{
     private val mHandler:Handler = Handler()
     private var mRunnable:Runnable = Runnable {  }
+    private var seconds = 0
+    private var startRun = false
+    private var hours = 0
+    private var minutes = 0
+    private var secs = 0
     
     fun onTimerStart(){
       mRunnable = Runnable {
