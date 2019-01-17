@@ -1,9 +1,10 @@
-FILE MAIN ACTIVITY:
+//FILE MAIN ACTIVITY:
 ---------------------------------------------------------------------------------
   private lateinit var mDrawerLayout: DrawerLayout
   -------------------------------------------------------------------------------
-  ON CREATE
+  //ON CREATE
   -------------------------------------------------------------------------------
+class smth{
     onCreate{
       mDrawerLayout = findViewById(R.id.drawer_layout)
 
@@ -39,9 +40,10 @@ FILE MAIN ACTIVITY:
         }
     }
     
-    -------------------------------XML-----------------------------------------
-    MAIN ACTIVITY
-    ---------------------------------------------------------------------------
+    }
+//     -------------------------------XML-----------------------------------------
+//     MAIN ACTIVITY
+//     ---------------------------------------------------------------------------
     <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                         xmlns:app="http://schemas.android.com/apk/res-auto"
                                         android:id="@+id/drawer_layout"
